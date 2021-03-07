@@ -47,12 +47,53 @@ inquirer
             name: "questions"
 
         },
+        {
+            type : "input",
+            message: "Email:",
+            name: "email"
+        },
+        {
+            type : "input",
+            message: "GitHub:",
+            name: "github"
+        }
 
     ])
     .then((r) => {
 
         const md =
-            ``
+            `# ${answers.title}
+
+![badge](https://img.shields.io/badge/license-${answers.license})
+
+## Description
+ ${answers.description}
+
+## Table of Contents
+[Instal](#instal)
+[Usage](#usage)
+[License](#license)
+[Contributers](#contributers)
+[Tests](#tests)
+[Questions](#questions)
+
+## Instal
+${answers.instal}
+
+## Usage
+${answers.usage}
+
+## License
+${answers.license}
+
+## Contributers
+${answers.contrib}
+
+## Tests
+${answers.test}
+
+## Questions
+${answers.questions}`
         fs.writeFile('README.md', md, (e) =>
             e ? console.log('Error') : console.log('Success'));
     }
