@@ -1,9 +1,9 @@
-# Cats
+# Kitty Cats
 
 ![badge](https://img.shields.io/badge/license-MIT-yellow.svg)
 
 ## Description
- A cut app for cats
+ A place for adorable cat photos
 
 ## Table of Contents
 
@@ -15,11 +15,11 @@
 [Questions](#questions) 
 
 ## Instal
-None
+No instal!
 
 ## Usage
 
-For cats to paw at cute toys
+Users can scroll through cat pictures! Mewo~
 
 ## License
 
@@ -33,9 +33,9 @@ The following have contributed to this project:
 Susan Ashmore
 
 ## Tests
-None
+none
 
 ## Questions
 
 Contact me via email: scashmorecitcom@gmail.com <br>
-Contact me via GitHub: scashmore
+Contact me via GitHub: [scashmore](https://github.com/scashmore)

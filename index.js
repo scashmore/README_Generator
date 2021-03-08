@@ -102,7 +102,7 @@ ${r.tests}
 ## Questions
 
 Contact me via email: ${r.email} <br>
-Contact me via GitHub: ${r.github}`
+Contact me via GitHub: [${r.github}](https://github.com/${r.github})`
         fs.writeFile('./readme/README.md', md, (e) =>
             e ? console.log('Error') : console.log('Success'));
     }
