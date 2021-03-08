@@ -21,7 +21,7 @@ inquirer
         {
             type: "input",
             message: "Usage:",
-            name: "useage"
+            name: "usage"
         },
         {
             type : "input",

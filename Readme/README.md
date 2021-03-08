@@ -3,7 +3,7 @@
 ![badge](https://img.shields.io/badge/license-MIT-yellow.svg)
 
 ## Description
- cats
+ A cut app for cats
 
 ## Table of Contents
 
@@ -15,11 +15,11 @@
 [Questions](#questions) 
 
 ## Instal
-cats
+None
 
 ## Usage
 
-undefined
+For cats to paw at cute toys
 
 ## License
 
@@ -30,12 +30,12 @@ Licensed by MIT
 ## Contributers
 
 The following have contributed to this project:
-Me
+Susan Ashmore
 
 ## Tests
-Cats
+None
 
 ## Questions
 
-Contact me via email: Cats <br>
-Contact me via GitHub: Cats
+Contact me via email: scashmorecitcom@gmail.com <br>
+Contact me via GitHub: scashmore
