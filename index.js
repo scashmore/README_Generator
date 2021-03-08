@@ -64,18 +64,19 @@ inquirer
         const md =
             `# ${r.title}
 
-![badge](https://img.shields.io/badge/license-${r.license})
+![badge](https://img.shields.io/badge/license-${r.license}-yellow.svg)
 
 ## Description
  ${r.description}
 
 ## Table of Contents
-[Instal](#instal)
-[Usage](#usage)
-[License](#license)
-[Contributers](#contributers)
-[Tests](#tests)
-[Questions](#questions)
+
+[Instal](#instal) <br>
+[Usage](#usage)  <br>
+[License](#license)  <br>
+[Contributers](#contributers)  <br>
+[Tests](#tests)  <br>
+[Questions](#questions) 
 
 ## Instal
 ${r.instal}
@@ -86,7 +87,7 @@ ${r.usage}
 
 ## License
 
-![badge](https://img.shields.io/badge/license-${r.license})
+![badge](https://img.shields.io/badge/license-${r.license}-yellow.svg)
 
 Licensed by ${r.license}
 
@@ -96,11 +97,11 @@ The following have contributed to this project:
 ${r.contrib}
 
 ## Tests
-${r.test}
+${r.tests}
 
 ## Questions
 
-Contact me via email: ${r.email} 
+Contact me via email: ${r.email} <br>
 Contact me via GitHub: ${r.github}`
         fs.writeFile('./readme/README.md', md, (e) =>
             e ? console.log('Error') : console.log('Success'));
