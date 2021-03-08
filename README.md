@@ -4,6 +4,8 @@
 
 This application aims to allow users to quickly generate md files for their projects.
 
+![image](readme.png)
+
 ## Use
 
 A link to a video displaying how to use this application: https://drive.google.com/file/d/1I6s0Myd6RUQ23d9ZxqKC9NJ3w29_giUS/view?usp=sharing
