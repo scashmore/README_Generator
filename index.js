@@ -62,12 +62,12 @@ inquirer
     .then((r) => {
 
         const md =
-            `# ${answers.title}
+            `# ${r.title}
 
-![badge](https://img.shields.io/badge/license-${answers.license})
+![badge](https://img.shields.io/badge/license-${r.license})
 
 ## Description
- ${answers.description}
+ ${r.description}
 
 ## Table of Contents
 [Instal](#instal)
@@ -78,23 +78,31 @@ inquirer
 [Questions](#questions)
 
 ## Instal
-${answers.instal}
+${r.instal}
 
 ## Usage
-${answers.usage}
+
+${r.usage}
 
 ## License
-${answers.license}
+
+![badge](https://img.shields.io/badge/license-${r.license})
+
+Licensed by ${r.license}
 
 ## Contributers
-${answers.contrib}
+
+The following have contributed to this project:
+${r.contrib}
 
 ## Tests
-${answers.test}
+${r.test}
 
 ## Questions
-${answers.questions}`
-        fs.writeFile('README.md', md, (e) =>
+
+Contact me via email: ${r.email} 
+Contact me via GitHub: ${r.github}`
+        fs.writeFile('./readme/README.md', md, (e) =>
             e ? console.log('Error') : console.log('Success'));
     }
     );
